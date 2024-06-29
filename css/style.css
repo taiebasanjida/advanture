@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.cont{
+    width: 80%;
+    margin: auto;
+}
+header{
+    background-image: url(../images/sunrise.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h4 {
+    color: rgb(214, 223, 220);
+    font-size: 30px;
+}
+nav h4 span{
+    font-weight: 25;
+
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+nav ul li{margin: 0 0 0 15px;}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(228, 214, 214);
+    font-weight: 900;
+}
+
+.banner{
+
+    padding: 100px 10px;
+    text-align: center;
+    color: azure;
+}
+.banner h4{
+    font-size: 30px;
+    font-style: italic;
+    margin: 0;
+}
+.banner span{
+    background-color: red;
+    height: 5px;
+    width: 220px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.banner h1{
+    font-size: 70px;
+}
+.banner button{
+    background-color: #d74f4f;
+    color: wheat;
+    padding: 15px 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.cont{
+    width: 80%;
+    margin: auto;
+}
+header{
+    background-image: url(../images/sunrise.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgb(129, 123, 123);
+}
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h4 {
+    color: rgb(214, 223, 220);
+    font-size: 30px;
+}
+nav h4 span{
+    font-weight: 25;
+
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+nav ul li{margin: 0 0 0 15px;}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(228, 214, 214);
+    font-weight: 900;
+}
+
+.banner{
+
+padding: 400px 0 150px;
+
+text-align: center;
+
+color: azure;
+}
+.banner h4{
+    font-size: 30px;
+    font-style: italic;
+}
+.banner span{
+    
+}
+.banner h1{
+    font-size: 70px;
+}
+.banner button{
+    background-color: #d74f4f;
+    color: wheat;
+    padding: 15px 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 1px solid;
+    border-radius: 15px;
+    transition: all 0.3s linear;
+}
+.banner button:hover{
+    background-color: #d74f4f00;
+    letter-spacing: 4px;
+}
